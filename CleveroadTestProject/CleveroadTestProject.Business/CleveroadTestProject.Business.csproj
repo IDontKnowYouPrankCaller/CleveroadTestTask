@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleveroadTestProject.Data\CleveroadTestProject.Data.csproj" />
+    <ProjectReference Include="..\CleveroadTestProject.Infrastructure\CleveroadTestProject.Infrastructure.csproj" />
+    <ProjectReference Include="..\CleveroadTestProject.ViewModel\CleveroadTestProject.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>
